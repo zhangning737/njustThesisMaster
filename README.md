@@ -1,8 +1,8 @@
-njustThesis
+南京理工大学硕士论文Latex模板（njustThesis）
 ================================================================================
 Description: 
 
-LaTeX (degree) thesis template for Nanjing University of Sci & Tech
+LaTeX (Master degree) thesis template for Nanjing University of Sci & Tech
 
 References: 
 
@@ -10,21 +10,19 @@ References:
 
 [2]. latex-njust808(https://code.google.com/p/latex-njust808/)
 
-Date: 2015-01-03
+[3]. njustThesis(https://github.com/jiec827/njustThesis/)
 
-Status: start(2015-01-03) - end(2016-04-05)
+Date: 2019-09-23
 
 ================================================================================
 Pre-requirements:
 
-1. MacTex (ctex included, version > tex-live2013);
+1. MacTex (ctex included, version > tex-live2015);
 
 2. config ctex for MacTex 
 (Ref:http://www.latexstudio.net/latex-tip-791-how-to-configure-mactex-of-chinese-support/)
 
-3. OR texlive2014 on windows OS (winEdt8.0 & SumatraPDF is recommended)
-
-4. MacTex-2015 has already configured the CHN fonts which made itself a better choice.
+3. OR texlive2015 on windows OS (winEdt8.0 & SumatraPDF is recommended)
 
 ================================================================================
 Notes:
@@ -41,12 +39,12 @@ readability of the codes(ecourage open-source projects);
 
     Make it more compatible with MacTex on OSX;
 
-    Make it easier for Windows OS user with texlive-2104 / 2015.
+    Make it easier for Windows OS user with texlive-2105~2019.
 
 ================================================================================
 Download:
 
-    git clone https://github.com/jiec827/njustThesis
+    git clone https://github.com/zhangning737/njustThesisMaster.git
 
 ================================================================================
 How to use it:
@@ -59,7 +57,7 @@ How to use it:
 
     4. 更新参考文献bibtex Thesis.aux,并更新Thesis.bbl文件中的中文错误部分；
 
-    5. 多次运行xelatex Thesis.tex重新编译生成pdf文件。
+    5. 两次运行xelatex Thesis.tex重新编译生成pdf文件。
 
 ================================================================================
 Files:
@@ -82,19 +80,3 @@ pdf, fig, etc)
 
 7. bib: (directory) all references used in this thesis(in bibTeX format)
 
-================================================================================
-修改：
-
-1. 新版封页
-
-2. 添加书脊
-
-3. 章节首页添加页眉
-
-4. 更新页面设置
-
-5. 增加图片和表格新例程
-
-6. 更新参考文献格式为GBT格式（说明：GBT生成的＊.bll文件需要稍作修改才能匹配NUST的文献格式）
-
-7. 替换模版＊.cls文件中的\CTEX@spaceChar为\quad，适应texlive－2105的新函数
