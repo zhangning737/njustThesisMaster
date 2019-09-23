@@ -39,7 +39,9 @@ readability of the codes(ecourage open-source projects);
 
     Make it more compatible with MacTex on OSX;
 
-    Make it easier for Windows OS user with texlive-2105~2019.
+    Make it easier for Windows OS user with texlive-2105~2019;
+
+    Texlive full version on Linux should be work, but never tested.
 
 ================================================================================
 Download:
