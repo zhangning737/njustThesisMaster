@@ -17,12 +17,9 @@ Date: 2019-09-23
 ================================================================================
 Pre-requirements:
 
-1. MacTex (ctex included, version > tex-live2015);
+1. MacTex (ctex included, version > tex-live2019);
 
-2. config ctex for MacTex 
-(Ref:http://www.latexstudio.net/latex-tip-791-how-to-configure-mactex-of-chinese-support/)
-
-3. OR texlive2015 on windows OS (winEdt8.0 & SumatraPDF is recommended)
+2. OR texlive2019 on windows OS (winEdt8.0 & SumatraPDF is recommended)
 
 ================================================================================
 Notes:
