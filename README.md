@@ -36,9 +36,9 @@ readability of the codes(ecourage open-source projects);
 
     Make it more compatible with MacTex on OSX;
 
-    Texlive full version on Linux works;
+    Make it easier for Windows OS user with texlive-2105~2019;
 
-    Make it easier for Windows OS user with texlive-2105~2019, font problem please check issue #1;
+    Texlive full version on Linux works.
 
 
 ================================================================================
@@ -51,13 +51,13 @@ How to use it:
 
     1. 修改学位论文封面信息（tex/cover.tex），并将对应的具体章节内容添加至tex目录下的其他文件内（正文部分额外添加的章节需要在Thesis.tex文件中使用input命令包含）；
 
-    2. 采用命令xelatex Thesis.tex进行编译；
+    2. 采用命令pdflatex Thesis.tex进行编译；
 
     3. 命令行makeindex Thesis.nlo -s nomencl.ist -o Thesis.nls生成术语链接；
 
     4. 更新参考文献bibtex Thesis.aux,并更新Thesis.bbl文件中的中文错误部分；
 
-    5. 两次运行xelatex Thesis.tex重新编译生成pdf文件。
+    5. 两次运行pdflatex Thesis.tex重新编译生成pdf文件。
 
 ================================================================================
 Files:
