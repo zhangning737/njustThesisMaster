@@ -53,7 +53,7 @@
 %%
 %%%%*************************** loadclass infomation ************************************
 %%
-\LoadClass[cs4size,a4paper,fancyhdr,fntef,hyperref,UTF8]{ctexbook}[2015/03/15]
+\LoadClass[cs4size,a4paper,fancyhdr,fntef,hyperref,UTF8,AutoFakeBold]{ctexbook}[2015/03/15]
 %%%%% ------------------------------------------------------------------------------------------
 %%
 %%%%***************************** package infomation ***********************************
