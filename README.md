@@ -19,7 +19,9 @@ Pre-requirements:
 
 1. MacTex (ctex included, version > tex-live2019);
 
-2. OR texlive2019 on windows OS (winEdt8.0 & SumatraPDF is recommended)
+2. OR texlive2019 or newer version on windows OS (winEdt8.0 & SumatraPDF is recommended)
+
+3. OR texlive2019 or newer version on Linux
 
 ================================================================================
 Notes:
